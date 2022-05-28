@@ -606,6 +606,7 @@ margin-top: 9px;
     padding-bottom: 94px;
 }
 .bot-text {
+font-weight: 700;
 font-style: bold;
 font-size: 14px;
 line-height: 1.14;
@@ -792,6 +793,61 @@ height: 16px;
 .svg-contacts:focus {
     fill: #2196f3;
 }
+.bot-form {
+width: 570px;
+height: 86px;
+margin-left: 93px;
+}
+.sign-text {
+margin-bottom: 20px;
+}
+.bot-sign-in {
+width: 358px;
+height: 50px;
+}
+.bot-sign-form {
+display: flex;
+}
+.bot-sign-button {
+display: block;
+width: 200px;
+height: 50px;
+margin: 0;
+padding: 0;
+border-color: transparent;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: #2196F3;
+padding-left: 29px;
+padding-right: 62px;
+margin-left: 12px;
+text-align: center;
+background-image: url("../hw1-images/sign.svg");
+background-repeat: no-repeat;
+background-position: 148px;
+}
+.bot-input {
+width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+background-color: inherit;
+padding-left: 16px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFFFFF;
+}
+.bot-sign-button:hover, 
+.bot-sign-button:focus {
+cursor: pointer;
+}
+.bot-sign-text {
+font-weight: 700;
+font-style: bold;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 6%;
+color: #FFFFFF;
+}
 .backdrop {
 position: fixed;
 top: 0;
@@ -819,6 +875,7 @@ transform: translate(-50%, -50%);
 min-width: 528px;
 min-height: 581px;
 background-color: #FFFFFF;
+padding: 40px;
 }
 .modal-button {
 position: absolute;
@@ -836,4 +893,58 @@ background-position: center;
 background-repeat: no-repeat;
 object-fit: cover;
 cursor: pointer;
+}
+.modal-title {
+font-weight: 700;
+font-style: bold;
+font-size: 20px;
+line-height: 1.15;
+letter-spacing: 3%;
+text-align: center;
+color: rgba(33, 33, 33, 1);
+margin: 0;
+margin-bottom: 12px;
+}
+.modal-block {
+display: inline-block;
+}
+.modal-input {
+display: flex;
+margin-bottom: 10px;
+}
+.form-name {
+margin: 0;
+margin-bottom: 4px;
+color: rgba(117, 117, 117, 1);
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 1%;
+}
+.modal-input {
+width: 448px;
+height: 40px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+.comment {
+height: 120px;
+margin-bottom: 20px;
+}
+.modal-form-button {
+margin-top: 30px;
+margin-left: 164px;
+margin-right: 164px;
+width: 200px;
+height: 50px;
+background-color: #2196F3;
+border-color: transparent;
+border-radius: 4px;
+}
+.modal-button-text {
+font-weight: 700;
+font-style: bold;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 6%;
+color: #FFFFFF;
 }

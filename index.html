@@ -251,11 +251,34 @@
             </li>
         </ul>
         </div>
+        <div class="bot-form">
+        <h3 class="bot-text sign-text">Подпишитесь на рассылку</h3>
+        <div class="bot-sign-form">
+        <form class="bot-sign-in">
+        <label for="mail"></label>
+        <input type="email" name="sign-mail" placeholder="E-mail" class="bot-input">
+        </form>
+        <button type="submit" class="bot-sign-button"><span class="bot-sign-text">Подписаться</span></button>
         </div>
-    </footer>
+        </div>
+        </div>
+        </footer>
 <div class="backdrop is-hidden" data-modal>
 <div class="modal">
 <button class="modal-button" data-modal-close></button>
+<p class="modal-title"> Оставьте свои данные, мы Вам перезвоним</p>
+<form class="modal-block">
+<p class="form-name">Имя</p>
+<input type="text" class="modal-input" name="user-name" required/>
+<p class="form-name">Телефон</p>
+<input type="tel" class="modal-input" name="user-tel" required />
+<p class="form-name">Почта</p>
+<input type="email" class="modal-input" name="user-mail" required />
+<p class="form-name">Комментарий</p>
+<input type="text" class="modal-input comment" name="user-comment" />
+<p>Соглашаюсь с рассылкой и принимаю условия договора</p>
+<button type="submit" class="modal-form-button"><span class="modal-button-text">Отправить</span></button>
+</form>
 </div>
 </div>
 <script src="./js/modal.js"></script>
