@@ -981,3 +981,7 @@ width: 18px;
 height: 18px;
 }
 
+.input-mail {
+background-image: url('../hw1-images/modal-mail.svg');
+}
+
