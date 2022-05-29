@@ -271,30 +271,38 @@
 <form class="modal-block">
 <div class="modal-field">
 <label class="form-name">Имя
-<input type="text" class="modal-input" name="user-name" placeholder=" " required/>
+<input type="text" class="modal-input" name="user-name" placeholder=" " minlength="3" required/>
 </label>
-<svg class="input-icon"><use href="./hw1-images/icons.svg#modal-name"></use>
+<svg class="input-icon"><use href="./hw1-images/test/icomoon-test/symbol-defs.svg#icon-person"></use>
 </svg>
 </div>
 <div class="modal-field">
 <label class="form-name">Телефон
 <input type="tel" class="modal-input" name="user-tel" placeholder=" " required />
 </label>
-<svg class="input-icon"><use href="./hw1-images/icons.svg#modal-phone"></use>
+<svg class="input-icon"><use href="./hw1-images/test/icomoon-test/symbol-defs.svg#icon-call"></use>
 </svg>
 </div>
 <div class="modal-field">
 <label class="form-name">Почта
 <input type="email" class="modal-input" name="user-mail" placeholder=" " required />
 </label>
-<svg class="input-icon input-mail"><use href="./hw1-images/icons.svg#modal-mail"></use>
+<svg class="input-icon"><use href="./hw1-images/test/icomoon-test/symbol-defs.svg#icon-mail-envelope"></use>
 </svg>
 </div>
-<label class="form-name">Комментарий
+<label class="form-name modal-field">Комментарий
 <textarea class="modal-input comment" name="user comment" placeholder="Введите текст"></textarea>
 </label>
-<p>Соглашаюсь с рассылкой и принимаю условия договора</p>
+<div class="checkbox-form">
+<label class="checkbox-label">
+<input class="checkbox" type="checkbox" name="agreement" value="agreement" required/>
+<span class="checkbox-icon"></span>
+<span class="agreement-text">Соглашаюсь с рассылкой и принимаю <span class="user-agreement">Условия договора</span></span>
+</label>
+</div>
+<div class="send-button">
 <button type="submit" class="modal-form-button"><span class="modal-button-text">Отправить</span></button>
+</div>
 </form>
 </div>
 </div>
